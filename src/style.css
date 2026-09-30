@@ -1,0 +1,17 @@
+:root { --acc: #b45309; --acc-ink: #fff; --paper: #fbf6ee; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1c1712; } }
+body { background: var(--paper); }
+.writer {
+  width: 100%; min-height: 42vh; resize: vertical; border-radius: 16px;
+  border: 1.5px solid var(--line); background: var(--card); color: var(--ink);
+  padding: 14px; font-size: 1.05rem; line-height: 1.75;
+}
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.stat {
+  background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 12px;
+}
+.stat.wide { grid-column: 1 / -1; }
+.stat span { display: block; color: var(--muted); font-size: 0.78rem; font-weight: 700; }
+.stat b { display: block; font-size: 1.45rem; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; margin-top: 2px; }
+.stat em { font-style: normal; font-weight: 700; color: var(--muted); font-size: 0.85rem; }
+.note { margin: 0; }
