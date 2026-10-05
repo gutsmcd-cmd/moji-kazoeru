@@ -29,7 +29,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Moji Kazoeru',
+  app: 'Character Count',
   placeholder: 'Paste or type here…',
   all: 'Characters (with spaces & line breaks)',
   noSpace: 'Without spaces or line breaks',
