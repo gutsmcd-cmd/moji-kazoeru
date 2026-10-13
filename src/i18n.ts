@@ -1,6 +1,6 @@
 export type Lang = 'ja' | 'en';
 const ja = {
-  app: '文字数はかる',
+  app: '文字数カウント',
   placeholder: 'ここに文章を貼るか、入力…',
   all: '文字数（空白・改行を含む）',
   noSpace: '空白・改行なし',

@@ -9,8 +9,8 @@ export default defineConfig({
       includeAssets: ['icons/*.png'],
       manifest: {
         id: '/moji-kazoeru/',
-        name: '文字数はかる',
-        short_name: '文字数はかる',
+        name: '文字数カウント',
+        short_name: '文字数カウント',
         description:
           '日本語の文字数と原稿用紙枚数。無料・広告なし・ログイン不要・オフライン対応。A Japanese writing counter — free, no ads, no login, offline.',
         lang: 'ja',
